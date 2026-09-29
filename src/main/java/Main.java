@@ -74,6 +74,11 @@ public class Main {
                 }
             }
         }
+        if(p1.Estavivo()) {
+            JOptionPane.showMessageDialog(null,"Parabéns "+p1.getNome()+" você foi o jogador que venceu!");
+        } else {
+            JOptionPane.showMessageDialog(null,"Parabéns "+p2.getNome()+" você foi o jogador que venceu!");
+        }
     }
 
 }
